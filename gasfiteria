@@ -1,0 +1,240 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2822
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 <!DOCTYPE html>\
+<html lang="es">\
+<head>\
+<meta charset="UTF-8" />\
+<meta name="viewport" content="width=device-width, initial-scale=1" />\
+<title>Gasfiter\'eda Rivera - Mantenci\'f3n e Instalaci\'f3n</title>\
+<style>\
+  /* Reset y base */\
+  body \{\
+    margin: 0;\
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;\
+    background: #f4f7fa;\
+    color: #333;\
+  \}\
+  a \{\
+    color: #f7c948; /* amarillo */\
+    text-decoration: none;\
+  \}\
+  a:hover \{\
+    text-decoration: underline;\
+  \}\
+\
+  /* Cabecera */\
+  header \{\
+    background: #005f99; /* azul oscuro */\
+    color: white;\
+    padding: 20px 40px;\
+    display: flex;\
+    justify-content: space-between;\
+    align-items: center;\
+  \}\
+  header h1 \{\
+    margin: 0;\
+    font-weight: 700;\
+  \}\
+  nav a \{\
+    margin-left: 25px;\
+    font-weight: 600;\
+  \}\
+\
+  /* Secciones */\
+  section \{\
+    padding: 50px 40px;\
+    max-width: 1100px;\
+    margin: 0 auto;\
+  \}\
+\
+  /* Servicios */\
+  #servicios \{\
+    background: #e1e8f0; /* gris claro */\
+    border-radius: 8px;\
+  \}\
+  #servicios h2 \{\
+    text-align: center;\
+    color: #004d80;\
+    margin-bottom: 40px;\
+  \}\
+  .servicios-lista \{\
+    display: flex;\
+    flex-wrap: wrap;\
+    justify-content: space-around;\
+    gap: 25px;\
+  \}\
+  .servicio-item \{\
+    background: white;\
+    border-radius: 6px;\
+    padding: 20px;\
+    flex: 1 1 220px;\
+    box-shadow: 0 3px 8px rgba(0,0,0,0.1);\
+    transition: transform 0.3s ease;\
+  \}\
+  .servicio-item:hover \{\
+    transform: translateY(-5px);\
+  \}\
+  .servicio-item h3 \{\
+    margin-top: 0;\
+    color: #005f99;\
+  \}\
+  .servicio-item p \{\
+    color: #555;\
+  \}\
+\
+  /* Sobre nosotros */\
+  #sobre \{\
+    text-align: center;\
+    color: #004d80;\
+  \}\
+  #sobre h2 \{\
+    margin-bottom: 20px;\
+  \}\
+  #sobre p \{\
+    max-width: 700px;\
+    margin: 0 auto;\
+    font-size: 1.1em;\
+    line-height: 1.5;\
+  \}\
+\
+  /* Contacto */\
+  #contacto h2 \{\
+    text-align: center;\
+    color: #004d80;\
+    margin-bottom: 40px;\
+  \}\
+  form \{\
+    max-width: 600px;\
+    margin: 0 auto;\
+    background: #e1e8f0;\
+    padding: 30px;\
+    border-radius: 8px;\
+    box-shadow: 0 3px 8px rgba(0,0,0,0.1);\
+  \}\
+  form label \{\
+    display: block;\
+    margin-bottom: 8px;\
+    font-weight: 600;\
+    color: #003f66;\
+  \}\
+  form input, form textarea \{\
+    width: 100%;\
+    padding: 10px 15px;\
+    margin-bottom: 20px;\
+    border: 1px solid #ccc;\
+    border-radius: 5px;\
+    font-size: 1em;\
+    font-family: inherit;\
+    resize: vertical;\
+  \}\
+  form button \{\
+    background: #f7c948;\
+    color: #004d80;\
+    border: none;\
+    padding: 15px 25px;\
+    font-weight: 700;\
+    font-size: 1.1em;\
+    border-radius: 5px;\
+    cursor: pointer;\
+    transition: background 0.3s ease;\
+  \}\
+  form button:hover \{\
+    background: #e6b93d;\
+  \}\
+\
+  /* Pie de p\'e1gina */\
+  footer \{\
+    background: #003f66;\
+    color: white;\
+    text-align: center;\
+    padding: 20px 10px;\
+    font-size: 0.9em;\
+  \}\
+\
+  /* Responsive */\
+  @media (max-width: 700px) \{\
+    header \{\
+      flex-direction: column;\
+      gap: 10px;\
+    \}\
+    nav a \{\
+      margin-left: 0;\
+      margin-right: 15px;\
+    \}\
+    .servicios-lista \{\
+      flex-direction: column;\
+      gap: 15px;\
+    \}\
+  \}\
+</style>\
+</head>\
+<body>\
+\
+<header>\
+  <h1>Gasfiter\'eda Rivera</h1>\
+  <nav>\
+    <a href="#servicios">Servicios</a>\
+    <a href="#sobre">Sobre Nosotros</a>\
+    <a href="#contacto">Contacto</a>\
+  </nav>\
+</header>\
+\
+<section id="servicios">\
+  <h2>Servicios que ofrecemos</h2>\
+  <div class="servicios-lista">\
+    <div class="servicio-item">\
+      <h3>Mantenci\'f3n e instalaci\'f3n de calefones</h3>\
+      <p>Servicio profesional para asegurar el buen funcionamiento y seguridad de tus calefones.</p>\
+    </div>\
+    <div class="servicio-item">\
+      <h3>Calderas y estufas</h3>\
+      <p>Instalaci\'f3n, mantenci\'f3n y reparaci\'f3n de calderas y estufas a gas.</p>\
+    </div>\
+    <div class="servicio-item">\
+      <h3>Llaves y ca\'f1er\'edas</h3>\
+      <p>Reparaci\'f3n e instalaci\'f3n de llaves de paso, ca\'f1er\'edas y sistemas hidr\'e1ulicos.</p>\
+    </div>\
+    <div class="servicio-item">\
+      <h3>WC y alcantarillado</h3>\
+      <p>Soluciones en reparaci\'f3n, mantenci\'f3n y cambio de artefactos sanitarios y sistemas de alcantarillado.</p>\
+    </div>\
+    <div class="servicio-item">\
+      <h3>Gasfiter\'eda en general</h3>\
+      <p>Atenci\'f3n integral para tus necesidades domiciliarias y comerciales de gasfiter\'eda.</p>\
+    </div>\
+  </div>\
+</section>\
+\
+<section id="sobre">\
+  <h2>Sobre Gasfiter\'eda Rivera</h2>\
+  <p>\
+    Somos un equipo de profesionales comprometidos con la calidad, seguridad y eficiencia en cada trabajo. \
+    Contamos con a\'f1os de experiencia en mantenci\'f3n e instalaci\'f3n de artefactos a gas, garantizando satisfacci\'f3n a nuestros clientes.\
+  </p>\
+</section>\
+\
+<section id="contacto">\
+  <h2>Contacto</h2>\
+  <form action="mailto:tuemail@ejemplo.com" method="post" enctype="text/plain">\
+    <label for="nombre">Nombre</label>\
+    <input type="text" id="nombre" name="nombre" required />\
+\
+    <label for="email">Correo electr\'f3nico</label>\
+    <input type="email" id="email" name="email" required />\
+\
+    <label for="mensaje">Mensaje</label>\
+    <textarea id="mensaje" name="mensaje" rows="5" required></textarea>\
+\
+    <button type="submit">Enviar</button>\
+  </form>\
+</section>\
+\
+<footer>\
+  &copy; 2025 Gasfiter\'eda Rivera - Todos los derechos reservados\
+</footer>\
+\
